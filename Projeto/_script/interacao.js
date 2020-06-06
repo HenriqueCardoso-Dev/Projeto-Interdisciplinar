@@ -1,3 +1,3 @@
 function pageLoad(){
-    alert("Seja Bem-Vindo ao Site do Toad Retro!");
+    window.alert("Seja Bem-Vindo ao Site do Toad Retro!");
 }
