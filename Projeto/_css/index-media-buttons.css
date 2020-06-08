@@ -20,7 +20,7 @@
     content: "";
     background-image: url(../_media/_photos/whatsapp-logo.png);
     width: 50px;
-    height:50px;
+    height: 50px;
 }
 #bWhats a p{
     display: flex;
@@ -40,7 +40,7 @@
     height: 70px;
     border-radius: 25px;
     border: 3px solid #ffffff;
-    background-color: var(--back-button);
+    background-color: var(--button-face);
     box-shadow: 0px 0px 3px #000000;
     width: 350px;
     justify-content: center;
@@ -53,7 +53,7 @@
     content: "";
     background-image: url(../_media/_photos/facebook-logo.png);
     width: 40px;
-    height:40px;
+    height: 40px;
 }
 #bFace a p{
     display: flex;
@@ -61,5 +61,5 @@
 }
 #bFace a:hover{
     border-radius: 45px;
-    background-color: #2892e9;
+    background-color: #485a96;
 }
