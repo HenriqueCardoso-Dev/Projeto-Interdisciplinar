@@ -1,6 +1,6 @@
 :root{
     --button-color: #ffffff;
-    --button-whats: #44c654;
+    --button-whats: #2fc241;
     --button-face: #485a96;
 }
 *{
@@ -9,9 +9,6 @@
     box-sizing: border-box;
 }
 body{
-    background: url(../_media/_photos/background-image.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
 }
 a{
