@@ -48,6 +48,7 @@
 }
 #bFace a span{
     display: flex;
+    margin-right: 7px;
 }
 #bFace a span::after{
     content: "";
