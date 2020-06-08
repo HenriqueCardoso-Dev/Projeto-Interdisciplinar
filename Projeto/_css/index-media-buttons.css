@@ -1,0 +1,47 @@
+:root{
+    --button-color: #ffffff;
+    --back-button: #44c654;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #333333;
+}
+a{
+    text-decoration: none;
+}
+#bWhats a{
+    color: var(--button-color);
+    font-size: 13pt;
+    text-shadow: 0px 0px 8px #000000;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    background-color: var(--back-button);
+    box-shadow: 0px 0px 3px #000000;
+    width: 350px;
+    justify-content: center;
+    transition: 700ms;
+}
+#bWhats a span{
+    display: flex;
+}
+#bWhats a span::after{
+    content: "";
+    background-image: url(../_media/_photos/whatsapp-logo.png);
+    width: 50px;
+    height:50px;
+}
+#bWhats a p{
+    display: flex;
+    margin-left: 10px;
+}
+#bWhats a:hover{
+    border-radius: 45px;
+    background-color: #2dcc40;
+}
