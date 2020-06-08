@@ -52,8 +52,8 @@
 #bFace a span::after{
     content: "";
     background-image: url(../_media/_photos/facebook-logo.png);
-    width: 50px;
-    height:50px;
+    width: 40px;
+    height:40px;
 }
 #bFace a p{
     display: flex;
@@ -61,5 +61,5 @@
 }
 #bFace a:hover{
     border-radius: 45px;
-    background-color: #2dcc40;
+    background-color: #2892e9;
 }
