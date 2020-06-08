@@ -2,16 +2,20 @@ nav#menu ul {
     display: flex;
     align-items: center;
     list-style: none;
-    height: 50px;
+    height: 80px;
     width: 100%;
     padding-left: 63%;
     padding-right: 5%;
     background-color: #494747;
     justify-content: space-between;
+    border-bottom: 1px solid #bbbbbb;
+    margin-bottom: 40px;
 }
+
 nav#menu ul a {
     color: var(--button-color);
     font-family: sans-serif;
+    font-weight: bold;
     font-size: 14px;
     display: flex;
     align-items: center;
