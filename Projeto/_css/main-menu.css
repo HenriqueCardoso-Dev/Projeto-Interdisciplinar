@@ -16,7 +16,7 @@ nav#menu ul a {
     color: var(--button-color);
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
