@@ -1,6 +1,5 @@
 nav#menu ul {
     display: flex;
-    align-items: center;
     list-style: none;
     height: 80px;
     width: 100%;
@@ -19,4 +18,9 @@ nav#menu ul a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px;
+}
+
+nav#menu ul a:hover {
+    background-color: #474444;
 }
