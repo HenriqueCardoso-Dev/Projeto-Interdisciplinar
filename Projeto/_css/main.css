@@ -10,7 +10,9 @@
     box-sizing: border-box;
 }
 body{
-    background: #3a3a3a;
+    background: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
 }
 a{
