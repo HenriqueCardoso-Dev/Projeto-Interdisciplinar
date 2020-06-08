@@ -1,0 +1,15 @@
+:root{
+    --button-color: #ffffff;
+    --back-button: #44c654;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #333333;
+}
+a{
+    text-decoration: none;
+}
