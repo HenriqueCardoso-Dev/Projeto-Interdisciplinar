@@ -1,7 +1,8 @@
 :root{
     --button-color: #ffffff;
-    --back-button: #44c654;
+    --button-whats: #44c654;
     --button-face: #485a96;
+    --button-insta: ;
 }
 *{
     margin:0;
