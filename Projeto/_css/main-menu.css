@@ -4,9 +4,8 @@ nav#menu ul {
     height: 80px;
     width: 100%;
     padding-left: 63%;
-    padding-right: 5%;
     background-color: #333333;
-    justify-content: space-between;
+    justify-content: space-betwen;
     border-bottom: 2px solid #bbbbbb;
 }
 
@@ -18,7 +17,7 @@ nav#menu ul a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7%;
+    padding: 20px;
 }
 
 nav#menu ul a:hover {
