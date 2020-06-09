@@ -1,5 +1,8 @@
 body{
-    background-image
+   background-image: url(../_media/_photos/backgroundServicos.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
 }
 
 section#content-servicos {
