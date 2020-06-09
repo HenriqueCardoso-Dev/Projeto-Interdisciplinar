@@ -14,3 +14,7 @@ section#content-servicos {
 section#content-servicos ul{
     list-style: none;
 }
+
+section#content-servicos ul h3, h1{
+    font-family: 'Ubuntu', sans-serif;
+}

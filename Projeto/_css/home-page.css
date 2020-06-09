@@ -11,6 +11,7 @@ section#content-main {
     font-family: 'Ubuntu', sans-serif;
     color: #ffffff;
     text-shadow: 0px 0px 8px #000000;
-    font-size: 70px;
+    font-size: 30px;
     position: absolute;
+    line-height: 50px;
 }
