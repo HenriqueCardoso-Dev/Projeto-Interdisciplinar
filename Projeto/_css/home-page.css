@@ -1,7 +1,16 @@
 section#content-main {
     height: 90vh;
-    background: url(../_media/_photos/background-image.png);
-    background-attachment: fixed;
-    background-size: 2.5%;
-    opacity: 0.97;
+    background: url(../_media/_photos/background-image.jpg);
+    background-size: 210vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-main div#content h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 8px #000000;
+    font-size: 70px;
+    position: absolute;
 }

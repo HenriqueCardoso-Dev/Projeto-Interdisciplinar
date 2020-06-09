@@ -5,7 +5,7 @@ nav#menu ul {
     width: 100%;
     padding-left: 63%;
     padding-right: 5%;
-    background-color: #3b3a3a;
+    background-color: #da302d;
     justify-content: space-between;
     border-bottom: 1px solid #bbbbbb;
 }
@@ -22,5 +22,5 @@ nav#menu ul a {
 }
 
 nav#menu ul a:hover {
-    background-color: #474444;
+    background-color: #eb4a48;
 }
