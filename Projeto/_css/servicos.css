@@ -18,3 +18,7 @@ section#content-servicos ul{
 section#content-servicos ul h3, h1{
     font-family: 'Ubuntu', sans-serif;
 }
+
+nav#menu ul a#s {
+    background-color: #be1916;
+}

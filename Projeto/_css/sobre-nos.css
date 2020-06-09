@@ -23,3 +23,7 @@ section#sobre-nos-cont p {
 section#sobre-nos-cont p span {
     font-size: 13pt;
 }
+
+nav#menu ul a#sN {
+    background-color: #be1916;
+}
