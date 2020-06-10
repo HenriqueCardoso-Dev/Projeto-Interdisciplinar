@@ -25,10 +25,14 @@ nav#menu ul a:hover {
 }
 
 
-@media (max-width: 872px) {
+@media (max-width: 900px) {
     nav#menu ul {
         padding-left: 0;
-        justify-content: center;
+        justify-content: space-between;
         
+    }
+    nav#menu ul a {
+        width: 100%;
+        justify-content: center;
     }
 }
