@@ -48,6 +48,8 @@
 }
 
 
-@media (max-width: 659px) {
-    
+@media (max-width: 772px) {
+    body{
+       background-size: 100%;
+    }
 }
