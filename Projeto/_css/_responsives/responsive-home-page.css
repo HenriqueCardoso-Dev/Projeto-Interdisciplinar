@@ -1,0 +1,13 @@
+@media (max-width: 1090px) {
+
+    section#content-main {
+        background-size: 150vh;
+    }
+    
+    section#content-main div#content h1{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 80px;
+    }
+    
+}

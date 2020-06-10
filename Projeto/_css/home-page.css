@@ -1,5 +1,5 @@
 section#content-main {
-    height: 90vh;
+    height: 100vh;
     background: url(../_media/_photos/background-image.jpg);
     background-size: 100%;
     display: flex;
@@ -11,9 +11,11 @@ section#content-main {
     font-family: 'Ubuntu', sans-serif;
     color: #ffffff;
     text-shadow: 0px 0px 8px #000000;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: justify;
     position: absolute;
     line-height: 50px;
+    margin: 90px;
 }
 
 nav#menu ul a#pI {

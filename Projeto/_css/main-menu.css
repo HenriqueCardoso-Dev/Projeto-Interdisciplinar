@@ -23,3 +23,12 @@ nav#menu ul a {
 nav#menu ul a:hover {
     background-color: #292929;
 }
+
+
+@media (max-width: 872px) {
+    nav#menu ul {
+        padding-left: 0;
+        justify-content: center;
+        
+    }
+}
