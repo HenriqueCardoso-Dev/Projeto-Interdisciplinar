@@ -1,8 +1,8 @@
 @media (max-width: 1200px) {
 
     section#content-main {
-        background-size: 170vh;
-        background-position: left;
+        background-size: 100%;
+        /*background-position: left;*/
     }
     
     section#content-main div#content h1{
