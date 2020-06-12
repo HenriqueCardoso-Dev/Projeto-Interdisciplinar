@@ -1,8 +1,8 @@
 section#content-main {
-    height: 100vh;
     background: url(../_media/_photos/background-image.jpg);
+    height: 100vh;
     background-size: 100%;
-    background-position: 100%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;

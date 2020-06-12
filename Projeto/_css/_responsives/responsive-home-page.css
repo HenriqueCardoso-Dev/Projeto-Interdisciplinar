@@ -8,14 +8,10 @@
     section#content-main div#content h1{
         font-size: 22px;
         line-height: 40px;
-        font-size: 30px;
+        font-size: 20px;
         margin: 80px;
     }
     
-}
-
-@media (max-width: 10350px) {
-
 }
 
 @media (max-width: 872px){

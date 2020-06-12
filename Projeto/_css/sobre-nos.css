@@ -1,3 +1,8 @@
+body{
+    background-color: #111111;
+    
+}
+
 section#sobre-nos-cont {
     height: 92vh;
     display: flex;
@@ -7,17 +12,16 @@ section#sobre-nos-cont {
     align-items: center;
 }
 section#sobre-nos-cont iframe {
-    border: 3px solid #0000009d;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 section#sobre-nos-cont p {
     width: 30%;
     font-size: 15pt;
     text-align: justify;
     font-style: italic;
-    font-weight: bold;
     text-indent: 50px;
     font-family: 'Hind Siliguri', sans-serif;
+    color: var(--button-color);
 }
 
 section#sobre-nos-cont p span {
