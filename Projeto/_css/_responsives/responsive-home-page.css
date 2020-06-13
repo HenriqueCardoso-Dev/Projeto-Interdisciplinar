@@ -49,3 +49,29 @@
        background-size: 100%;
     }
 }
+
+@media (max-width: 425px) {
+
+    section#content-main {
+        background-color: #000000;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    
+
+    section#content-main div#content {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40%;
+    }
+
+    section#content-main div#content h1 {
+        font-size: 8pt;
+        width: 70%;
+        text-align: justify;
+        line-height: 20px;
+        margin:0;
+    }
+
+}
