@@ -1,0 +1,15 @@
+@media (max-width: 425px) {
+
+    footer p {
+        font-size: 9pt;
+    }
+
+}
+
+@media (max-width: 320px) {
+    
+    footer p {
+        font-size: 8pt;
+    }
+
+}
