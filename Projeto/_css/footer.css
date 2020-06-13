@@ -3,7 +3,6 @@ footer{
     display: flex;
     flex-direction: column;
     color: var(--text-main-color);
-    text-align: center;
 }
 
 footer div#buttons-media {
@@ -17,9 +16,14 @@ footer div#buttons-media {
     text-shadow: 0px 0px 2px #000;
 }
 
-footer p {
-    margin: 1% 1% 1px;
+footer p#credit{
+    margin: 1% 1% 2%;
     font-size: 11pt;
     font-style: italic;
     font-family: 'Hind Siliguri', sans-serif;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

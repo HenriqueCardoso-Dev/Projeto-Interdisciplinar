@@ -1,15 +1,15 @@
 @media (max-width: 425px) {
 
-    footer p {
+    footer p#credit {
         font-size: 9pt;
     }
 
 }
 
-@media (max-width: 320px) {
-    
-    footer p {
-        font-size: 8pt;
+@media (max-width: 375px) {
+
+    footer p#credit {
+        font-size: 7pt;
     }
 
 }

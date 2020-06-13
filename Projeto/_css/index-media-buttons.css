@@ -1,7 +1,7 @@
 /*Botão Whats*/
 #bWhats a{
     color: var(--text-main-color);
-    font-size: 10pt;
+    font-size: 11pt;
     text-shadow: 0px 0px 4px #000000;
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@
 /*Botão Face*/
 #bFace a{
     color: var(--text-main-color);
-    font-size: 10pt;
+    font-size: 11pt;
     text-shadow: 0px 0px 4px #000000;
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@
 
 #bInsta a{
     color: var(--text-main-color);
-    font-size: 10pt;
+    font-size: 11pt;
     text-shadow: 0px 0px 4px #000000;
     display: flex;
     align-items: center;
