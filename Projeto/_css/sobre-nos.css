@@ -13,6 +13,8 @@ section#sobre-nos-cont {
 }
 section#sobre-nos-cont iframe {
     border-radius: 5px;
+    width: 60%;
+    height: 70%;
 }
 section#sobre-nos-cont p {
     width: 30%;
