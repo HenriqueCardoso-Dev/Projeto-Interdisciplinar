@@ -20,6 +20,7 @@
         width: 50px;
         height: 50px;
         padding: 0 5px;
+        border-radius: 30px;
     }
 
     #bWhats a span {
@@ -36,6 +37,7 @@
         width: 50px;
         height: 50px;
         padding: 0 5px;
+        border-radius: 30px;
     }
 
     #bFace a span {
@@ -52,6 +54,7 @@
         width: 50px;
         height: 50px;
         padding: 0 5px;
+        border-radius: 30px;
     }
 
     #bInsta a span {
