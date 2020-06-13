@@ -21,7 +21,7 @@ section#sobre-nos-cont p {
     font-style: italic;
     text-indent: 50px;
     font-family: 'Hind Siliguri', sans-serif;
-    color: var(--button-color);
+    color: var(--text-main-color);
 }
 
 section#sobre-nos-cont p span {
