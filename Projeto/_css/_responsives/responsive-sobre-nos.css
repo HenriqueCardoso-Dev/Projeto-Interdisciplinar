@@ -1,0 +1,23 @@
+@media (max-width: 425px) {
+
+    section#sobre-nos-cont{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#sobre-nos-cont p{
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-size: 13px;
+        line-height: 20px;
+        width: 95%;
+        text-align: justify;
+    }
+
+    section#sobre-nos-cont iframe{
+        margin-top: 10%;
+        width: 300px;
+        height: 350px;
+    }
+}
+
