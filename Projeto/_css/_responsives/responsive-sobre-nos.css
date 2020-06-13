@@ -3,7 +3,7 @@
     section#sobre-nos-cont{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
     }
 
     section#sobre-nos-cont p{
