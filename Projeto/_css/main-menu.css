@@ -49,3 +49,11 @@ nav#menu ul a:hover {
     }
 
 }
+
+@media (max-width: 320px) {
+    
+    nav#menu ul a li {
+        font-size: 10px;
+    }
+
+}

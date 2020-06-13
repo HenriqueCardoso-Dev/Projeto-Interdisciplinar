@@ -1,0 +1,64 @@
+@media (max-width: 872px) {
+    #bInsta a {
+        opacity: 1;
+    }
+
+    #bFace a {
+        opacity: 1;
+    }
+
+    #bWhats a {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 425px) {
+
+    
+    /*Botão Whats quadrado*/
+    #bWhats a {
+        width: 50px;
+        height: 50px;
+        padding: 0 5px;
+    }
+
+    #bWhats a span {
+        margin-left: 25%;
+    }
+
+    #bWhats a p {
+        visibility: hidden;
+    }
+
+
+    /*Botão Face quadrado*/
+    #bFace a {
+        width: 50px;
+        height: 50px;
+        padding: 0 5px;
+    }
+
+    #bFace a span {
+        margin-left: 25%;
+    }
+
+    #bFace a p {
+        visibility: hidden;
+    }
+
+
+    /*Botão Insta quadrado*/
+    #bInsta a {
+        width: 50px;
+        height: 50px;
+        padding: 0 5px;
+    }
+
+    #bInsta a span {
+        margin-left: 25%;
+    }
+
+    #bInsta a p {
+        visibility: hidden;
+    }
+}

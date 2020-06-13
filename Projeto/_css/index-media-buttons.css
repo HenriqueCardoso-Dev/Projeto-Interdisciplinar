@@ -105,17 +105,3 @@
     background-color: var(--button-inta);
     opacity: 1;
 }
-
-@media (max-width: 872px) {
-    #bInsta a {
-        opacity: 1;
-    }
-
-    #bFace a {
-        opacity: 1;
-    }
-
-    #bWhats a {
-        opacity: 1;
-    }
-}
