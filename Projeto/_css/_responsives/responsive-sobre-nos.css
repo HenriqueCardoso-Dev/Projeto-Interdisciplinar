@@ -1,25 +1,48 @@
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
     section#sobre-nos-cont{
-        display: flex;
-        flex-direction: column;
         height: 100%;
     }
 
     section#sobre-nos-cont p{
-        margin-bottom: 10%;
-        margin-top: 5%;
         font-size: 25px;
-        line-height: 35px;
-        width: 105%;
+        line-height: 26px;
+        width: 109%;
         text-align: justify;
     }
 
     section#sobre-nos-cont iframe{
         margin-top: 10%;
+        margin-bottom: 10%;
+        margin-right: 10%;
+        width: 1250px;
+        height: 500px;
+        box-shadow: 0px 0px 5px var(--text-main-color);
+    }
+
+    section#sobre-nos-cont p span {
+        font-size: 25pt;
+    }
+}
+
+@media (max-width: 768px) {
+
+    section#sobre-nos-cont{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#sobre-nos-cont p{
+        margin-left: 0%;
+        margin-bottom: 10%;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    section#sobre-nos-cont iframe{
+        margin-left: 10%;
         width: 650px;
         height: 650px;
-        box-shadow: 0px 0px 5px var(--text-main-color);
     }
 
     section#sobre-nos-cont p span {
@@ -29,26 +52,14 @@
 
 @media (max-width: 425px) {
 
-    section#sobre-nos-cont{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
     section#sobre-nos-cont p{
-        margin-bottom: 10%;
-        margin-top: 10%;
         font-size: 17px;
         line-height: 22px;
-        width: 105%;
-        text-align: justify;
     }
 
     section#sobre-nos-cont iframe{
-        margin-top: 10%;
         width: 375px;
         height: 550px;
-        box-shadow: 0px 0px 5px var(--text-main-color);
     }
 
     section#sobre-nos-cont p span {
@@ -58,26 +69,13 @@
 
 @media (max-width: 375px) {
 
-    section#sobre-nos-cont{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
     section#sobre-nos-cont p{
-        margin-bottom: 10%;
-        margin-top: 10%;
         font-size: 15px;
-        line-height: 22px;
-        width: 105%;
-        text-align: justify;
     }
 
     section#sobre-nos-cont iframe{
-        margin-top: 10%;
         width: 325px;
         height: 450px;
-        box-shadow: 0px 0px 5px var(--button-color);
     }
 
     section#sobre-nos-cont p span {
@@ -87,26 +85,14 @@
 
 @media (max-width: 320px) {
 
-    section#sobre-nos-cont{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
     section#sobre-nos-cont p{
-        margin-bottom: 10%;
-        margin-top: 10%;
         font-size: 13px;
         line-height: 20px;
-        width: 95%;
-        text-align: justify;
     }
 
     section#sobre-nos-cont iframe{
-        margin-top: 10%;
         width: 275px;
         height: 350px;
-        box-shadow: 0px 0px 5px var(--button-color);
     }
 
     section#sobre-nos-cont p span {

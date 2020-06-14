@@ -1,4 +1,6 @@
+
 @media (max-width: 872px) {
+
     #bInsta a {
         opacity: 1;
     }
@@ -14,7 +16,6 @@
 
 @media (max-width: 425px) {
 
-    
     /*Botão Whats quadrado*/
     #bWhats a {
         width: 50px;
