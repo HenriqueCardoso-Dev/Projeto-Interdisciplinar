@@ -1,4 +1,15 @@
+// Coleta de input's:
 const nameValue = document.querySelector("input[name=nome]");
+
+const emailInput = document.querySelector("input[name=email]");
+
+const tellInput = document.querySelector("input[name=telefone]");
+
+const msgTextArea = document.querySelector("input[name=msgTxt]");
+
+//Coleta de valores vindos dos input's:
+
+
 
 const buttonSend = document.querySelector("input[name=buttonS]");
     buttonSend.addEventListener("click", function msgReturn(){
