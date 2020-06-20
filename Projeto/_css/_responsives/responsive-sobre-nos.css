@@ -1,4 +1,5 @@
 @media (max-width: 1440px) {
+
     
     section#sobre-nos-cont{
         height: 100%;
@@ -114,6 +115,10 @@
 }
 
 @media (max-width: 320px) {
+
+    footer{
+        height: 100%;
+    }
 
     section#sobre-nos-cont p{
         font-size: 13px;
