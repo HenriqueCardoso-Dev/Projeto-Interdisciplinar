@@ -32,13 +32,25 @@
     <main>
         <section id="orcamento-page">
             <form action="" method="GET">
-                <p><label for="nome">Nome: </label>
-                    <input type="text" name="nome" placeholder="Digite seu Nome" id="nome"></p>
-                <p>e-mail: <input type="e-mail" name="email" placeholder="Digite seu e-mail"></p>
-                <p>Telefone: <input type="text" name="telefone"></p>
+                <label for="nome">Nome: </label>
+                    <input type="text" name="nome" placeholder="Digite seu Nome" id="nome">
 
-                <p>Algo que devemos saber? <textarea>Escreva aqui!</textarea></p>
-                <p>Mande a foto do problema (opcional)<input type="file" name="arquivos"></p>
+                <label for="email">e-mail: </label>
+                    <input type="e-mail" name="email" placeholder="Digite seu e-mail" id="email">
+
+                <label for="telefone">Telefone: </label>
+                    <input type="text" name="telefone" placeholder="Digite seu número" id="telefone">
+
+                <label for="comentario">Algo que devemos saber? </label>
+                    <textarea id="comentario">Escreva aqui!</textarea>
+                
+                <label for="serie">Número de série do aparelho (opcional)</label>
+                    <input type="text" name="serie" placeholder="Digite o número" id="serie">
+
+                <label for="hd">Quantidade de Gb do HD: </label>
+                    <input type="text" name="hd" placeholder="Digite a quantidade" id="hd">
+
+                Mande a foto do problema (opcional)<input type="file" name="arquivos">
 
                 <input type="submit" value="Enviar" onclick="msg()">
             </form>
