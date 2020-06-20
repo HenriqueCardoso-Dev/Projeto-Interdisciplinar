@@ -41,18 +41,19 @@
                 <label for="telefone">Telefone: </label>
                     <input type="text" name="telefone" placeholder="Digite seu número" id="telefone" required>
 
-                <label for="comentario">Algo que devemos saber? </label>
-                    <textarea id="comentario" name="msgTxt" required>Escreva aqui!</textarea>
+                <label for="comentario">Descreva o defeito aparente do produto:</label>
+                    <textarea id="comentario" name="msgTxt" placeholder="Escreva aqui!" required></textarea>
                 
                 <label for="serie">Número de série do aparelho (opcional)</label>
-                    <input type="text" name="serie" placeholder="Digite o número" id="serie" required>
+                    <input type="text" name="serie" placeholder="Digite o número" id="serie">
 
                 <label for="hd">Quantidade de Gb do HD: </label>
                     <input type="text" name="hd" placeholder="Digite a quantidade" id="hd" required>
 
-                Mande a foto do problema (opcional)<input type="file" name="arquivos" required>
+                <label for="foto">Anexe uma imagem(opcional):</label>
+                    <input type="file" name="arquivos" id="foto">
 
-                <input type="submit" value="Enviar" name="buttonS" >
+                <input type="submit" value="Enviar" name="buttonS">
             </form>
 
         </section>
