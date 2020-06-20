@@ -33,26 +33,26 @@
         <section id="orcamento-page">
             <form action="" method="GET">
                 <label for="nome">Nome: </label>
-                    <input type="text" name="nome" placeholder="Digite seu Nome" id="nome">
+                    <input type="text" name="nome" placeholder="Digite seu Nome" id="nome" required>
 
                 <label for="email">e-mail: </label>
-                    <input type="e-mail" name="email" placeholder="Digite seu e-mail" id="email">
+                    <input type="e-mail" name="email" placeholder="Digite seu e-mail" id="email" required>
 
                 <label for="telefone">Telefone: </label>
-                    <input type="text" name="telefone" placeholder="Digite seu número" id="telefone">
+                    <input type="text" name="telefone" placeholder="Digite seu número" id="telefone" required>
 
                 <label for="comentario">Algo que devemos saber? </label>
-                    <textarea id="comentario">Escreva aqui!</textarea>
+                    <textarea id="comentario" name="msgTxt" required>Escreva aqui!</textarea>
                 
                 <label for="serie">Número de série do aparelho (opcional)</label>
-                    <input type="text" name="serie" placeholder="Digite o número" id="serie">
+                    <input type="text" name="serie" placeholder="Digite o número" id="serie" required>
 
                 <label for="hd">Quantidade de Gb do HD: </label>
-                    <input type="text" name="hd" placeholder="Digite a quantidade" id="hd">
+                    <input type="text" name="hd" placeholder="Digite a quantidade" id="hd" required>
 
-                Mande a foto do problema (opcional)<input type="file" name="arquivos">
+                Mande a foto do problema (opcional)<input type="file" name="arquivos" required>
 
-                <input type="submit" value="Enviar" name="buttonS">
+                <input type="submit" value="Enviar" name="buttonS" required>
             </form>
 
         </section>
