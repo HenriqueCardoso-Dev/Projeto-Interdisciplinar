@@ -32,8 +32,21 @@
     <main>
         <section id="orcamento-page">
             <form action="" method="GET">
+                <p>Nome: <input type="text" name="nome" placeholder="Digite seu Nome"></p>
+                <p>e-mail: <input type="e-mail" name="email" placeholder="Digite seu e-mail"></p>
+                <p>Telefone: <input type="text" name="telefone"></p>
 
+                <p>Algo que devemos saber? <textarea>Escreva aqui!</textarea></p>
+                <p>Mande a foto do problema (opcional)<input type="file" name="arquivos"></p>
+
+                <input type="submit" value="Enviar" onclick="msg()">
             </form>
+
+            <script>
+                function msg(){
+                    alert("Agradecemos a sua dúvida! Iremos calcular o preço o mais rápido possível!")
+                }
+            </script>
         </section>
     </main>
 
