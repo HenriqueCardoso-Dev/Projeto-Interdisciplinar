@@ -44,9 +44,23 @@
 }
 
 
-@media (max-width: 772px) {
+@media (max-width: 810px) {
     body{
        background-size: 100%;
+    }
+
+    section#content-main div#content h1 {
+        font-size: 9pt;
+        width: 70%;
+        text-align: justify;
+        line-height: 20px;
+        margin:0;
+    }
+
+    section#content-main div#content {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15%;
     }
 }
 

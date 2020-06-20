@@ -1,11 +1,9 @@
 nav#menu ul {
     display: flex;
+    flex-direction: row-reverse;
     list-style: none;
     height: 80px;
-    width: 100%;
-    padding-left: 63%;
     background-color: #333333;
-    justify-content: space-betwen;
     border-bottom: 2px solid #bbbbbb;
 }
 
@@ -16,14 +14,12 @@ nav#menu ul a {
     font-size: 16px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 20px;
 }
 
 nav#menu ul a:hover {
     background-color: #292929;
 }
-
 
 @media (max-width: 900px) {
     nav#menu ul {
@@ -37,15 +33,29 @@ nav#menu ul a:hover {
     }
 }
 
+@media (max-width: 576px) {
 
-@media (max-width: 425px) {
+    nav#menu ul a li {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 492px) {
+    nav#menu ul a li {
+        font-size: 9.5px;
+    }
+    
+}
+
+@media (max-width: 427px) {
     
     nav#menu ul {
         height: 45px;
     }
 
     nav#menu ul a li {
-        font-size: 11px;
+        font-size: 10px;
     }
 
 }
