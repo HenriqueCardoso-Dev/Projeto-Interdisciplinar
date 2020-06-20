@@ -14,7 +14,7 @@ const gbSizeInput = document.querySelector("input[name=hd]");
 const imgInput = document.querySelector("input[name=arquivos");
 
 
-const buttonSend = document.querySelector("input[name=buttonS]");
+const buttonSend = document.querySelector("button[name=buttonS]");
     buttonSend.addEventListener("click", function msgReturn(){
         alert(`Muito obrigado ${nameInput.value}, suas informações foram enviadas com sucesso!\n\nEm breve retronaremos com o orçamento em seu e-mail.`);
     });
