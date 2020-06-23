@@ -1,3 +1,7 @@
+body {
+    background-color: #000000;
+}
+
 section#content-main {
     background: url(../_media/_photos/background-image.jpg);
     height: 100vh;
