@@ -1,21 +1,5 @@
-// Coleta de input's:
+// Coleta do input:
 const nameInput = document.querySelector("input[name=nome]");
-
-const emailInput = document.querySelector("input[name=email]");
-
-const tellInput = document.querySelector("input[name=telefone]");
-
-const msgTextArea = document.querySelector("input[name=msgTxt]");
-
-const nSerieInput = document.querySelector("input[name=serie]");
-
-const gbSizeInput = document.querySelector("input[name=hd]");
-
-const imgInput = document.querySelector("input[name=arquivos");
-
-
-
-
 
 
 //Retorno ao usuário após envio do formulário
