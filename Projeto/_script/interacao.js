@@ -18,7 +18,7 @@ const listName = nameInput.value.split(" ");
 
 
 //Retorno ao usuário após envio do formulário
-const buttonSend = document.querySelector("button[name=buttonS]");
+const buttonSend = document.querySelector("input[name=buttonS]");
     buttonSend.addEventListener("click", function msgReturn() {
         alert(`Muito obrigado ${listName[0]}, suas informações foram enviadas com sucesso!\n\nEm breve retronaremos com o orçamento em seu e-mail.`);
     });
