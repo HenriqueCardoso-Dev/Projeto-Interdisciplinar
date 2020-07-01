@@ -24,6 +24,7 @@ main section#orcamento-page form input {
     padding: 10px 5px;
     border: 1px solid #3d3d3d;
     border-radius: 6px;
+    outline: none;
 }
 
 main section#orcamento-page form textarea {
