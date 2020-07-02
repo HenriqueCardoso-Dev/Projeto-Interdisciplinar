@@ -1,16 +1,16 @@
 body {
-    background: #73aca4;
+    background: #d2dbda;
 }
-
+    
 nav#menu ul a#oV {
     background-color: #be1916;
 }
-
+    
 main section#orcamento-page {
     height: 100vh;
     max-height: 700px;
 }
-
+    
 main section#orcamento-page form {
     display: flex;
     flex-direction: column;
@@ -18,28 +18,28 @@ main section#orcamento-page form {
     margin: 8% auto;
     font-weight: bold;
 }
-
+    
 main section#orcamento-page form input {
     margin: 8px 0;
     padding: 10px 5px;
     border: 1px solid #3d3d3d;
     border-radius: 6px;
 }
-
+    
 main section#orcamento-page form textarea {
     margin: 8px 0;
     border: 1px solid #3d3d3d;
     border-radius: 5px;
     padding: 10px 5px;
 }
-
+    
 main section#orcamento-page form input#foto {
     width: max-content;
     border: 0;
     outline: none;
     cursor: pointer;
 }
-
+    
 main section#orcamento-page form input#buttonS {
     padding: 25px;
     width: 40%;
@@ -58,8 +58,12 @@ main section#orcamento-page form input#buttonS {
     outline: none;
     transition: 700ms;
 }
-
-main section#orcamento-page form input#buttonS:hover {
+    
+   main section#orcamento-page form input#buttonS:hover {
     border-radius: 40px;
     width: 30%;
+   }
+
+main section#orcamento-page form label {
+    margin-top: 10px;
 }
