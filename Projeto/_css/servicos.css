@@ -30,16 +30,44 @@ nav#menu ul a#s {
 .vendas{
     width: 175px;
     height: 175px;
+    cursor: pointer;
 }
 .galeria1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 23px;
     grid-column-gap: 23px;
+  
 }
 #content{
     display: flex;
     align-items: center;
     justify-content:center;
     flex-direction: column;
+}
+#modal_img{
+    width: 35%;
+    height: 70%;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    visibility: hidden;
+}
+.modal_content{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+#bt_close{
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    padding: 5px 10px;
+    font-size: 25px;
+    cursor: pointer;
 }
