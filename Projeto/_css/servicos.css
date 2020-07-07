@@ -4,11 +4,12 @@ body{
    background-repeat: no-repeat;
    background-size: 100%;
    background-position: center;
+   height: 100%;
 }
 
 section#content-servicos {
     width: 70%;
-    height: 100vh;
+    height: 100%;
     background-color: #ffffff;
     margin: 0 auto;
     padding: 30px;
