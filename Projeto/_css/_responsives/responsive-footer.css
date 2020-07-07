@@ -1,4 +1,4 @@
-@media (max-width: 425px) {
+@media (max-width: 500px) {
 
     footer p#credit {
         font-size: 9pt;
@@ -6,7 +6,7 @@
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 410px) {
 
     footer p#credit {
         font-size: 7pt;

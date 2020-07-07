@@ -1,9 +1,4 @@
 @media (max-width: 1200px) {
-
-    section#content-main {
-        background-size: 100%;
-        /*background-position: left;*/
-    }
     
     section#content-main div#content h1{
         font-size: 22px;
@@ -17,16 +12,19 @@
 @media (max-width: 872px){
 
     section#content-main {
-        background-image: url(../../_media/_photos/background-image872.png);
-        background-size: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
     }
+
     section#content-main div#content h1{
         margin-bottom: 320px;
-        position: relative;
         font-size: 22px;
         line-height: 50px;
         width: 600px;
-        text-align: left;
+        text-align: justify;
         font-family: fontMario;
     }
 }
@@ -45,9 +43,6 @@
 
 
 @media (max-width: 810px) {
-    body{
-       background-size: 100%;
-    }
 
     section#content-main div#content h1 {
         font-size: 9pt;
@@ -60,25 +55,10 @@
     section#content-main div#content {
         display: flex;
         justify-content: center;
-        margin-bottom: 15%;
     }
 }
 
 @media (max-width: 425px) {
-
-    section#content-main {
-        background-color: #000000;
-        background-size: 100%;
-        background-position: center;
-    }
-
-    
-
-    section#content-main div#content {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40%;
-    }
 
     section#content-main div#content h1 {
         font-size: 8pt;

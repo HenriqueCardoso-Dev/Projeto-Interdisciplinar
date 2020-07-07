@@ -1,27 +1,29 @@
 body {
-    background-color: #000000;
+    background-color: #333;
+    height: 100vh;
 }
 
 section#content-main {
-    background: url(../_media/_photos/background-image.jpg);
+    background-color: #333;
     height: 100vh;
-    background-size: 100%;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-right: 7%;
+}
+
+section div#logo img {
+    width: 100%;
+
 }
 
 #content-main div#content h1{
     font-family: 'Ubuntu', sans-serif;
-    color: #ffffff;
+    color: var(--text-main-color);
     text-shadow: 0px 0px 8px #000000;
     font-size: 25px;
     text-align: justify;
     text-indent: 50px;
-    position: absolute;
     line-height: 50px;
-    margin: 90px;
 }
 
 nav#menu ul a#pI {
