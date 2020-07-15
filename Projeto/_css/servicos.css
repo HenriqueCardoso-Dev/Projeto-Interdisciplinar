@@ -9,7 +9,7 @@ body{
 
 section#content-servicos {
     width: 75%;
-    height: 90vh;
+    height: 100%;
     background-color: #ffffff;
     margin: 0 auto;
     padding: 30px;
@@ -23,10 +23,15 @@ section#content-servicos ul h3, h1{
     font-family: 'Ubuntu', sans-serif;
 }
 
+section#content-servicos ul h3 {
+    color: #d45250;
+    font-size: 16pt;
+}
+
 nav#menu ul a#s {
     background-color: #be1916;
 }
-.vendas{
+.vendas,.manutencao{
     width: 100%;
     height: 145px;
     cursor: pointer;
@@ -39,11 +44,12 @@ nav#menu ul a#s {
     grid-row-gap: 23px;
     grid-column-gap: 23px;
 }
-#content{
+.content{
     display: flex;
     align-items: center;
     justify-content:center;
     flex-direction: column;
+    margin-bottom: 3%;
 }
 #modal_img{
     width: 45%;
@@ -53,7 +59,7 @@ nav#menu ul a#s {
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
-    position: absolute;
+    position: fixed;
     visibility: hidden;
 }
 .modal_content{
