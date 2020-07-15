@@ -1,7 +1,7 @@
 footer{
     background-color: #7c2020;
-    position: relative;
     display: flex;
+    position: relative;
     flex-direction: column;
     color: var(--text-main-color);
 }
