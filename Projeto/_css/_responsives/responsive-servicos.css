@@ -1,0 +1,44 @@
+@media (max-width: 1000px) {
+    
+    .galeria1 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 850px) {
+    
+    .galeria1 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+    .galeria1 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .galeria1 {
+        grid-template-columns: 1fr;
+    }
+
+    .vendas {
+        height: 165px;
+    }
+
+    p {
+        font-size: 8pt;
+    }
+
+    section#content-servicos ul h3, h1{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 12pt;
+    }
+
+}

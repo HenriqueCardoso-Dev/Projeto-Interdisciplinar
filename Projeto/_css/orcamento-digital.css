@@ -18,6 +18,7 @@ main section#orcamento-page form {
     margin: 8% auto;
     font-weight: bold;
     color: #c0bdbd;
+    font-family: 'Ubuntu', sans-serif;
 }
     
 main section#orcamento-page form input {
