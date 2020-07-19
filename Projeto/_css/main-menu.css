@@ -1,3 +1,9 @@
+nav#menu img{
+    position: absolute;
+    height: 12%;
+    margin-left: 2%;
+}
+
 nav#menu ul {
     display: flex;
     flex-direction: row-reverse;
