@@ -1,9 +1,15 @@
+nav#menu img{
+    position: absolute;
+    height: 12%;
+    margin-left: 2%;
+}
+
 nav#menu ul {
     display: flex;
     flex-direction: row-reverse;
     list-style: none;
     height: 80px;
-    background-color: #7c2020;
+    background-color: #9b0202;
     border-bottom: 2px solid #bbbbbb;
 }
 
