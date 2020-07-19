@@ -1,7 +1,17 @@
+@media (max-width: 1100px) {
+    img#modal_img {
+        height: 70%;
+        width: 50%;
+    }
+}
 @media (max-width: 1000px) {
     
     .galeria1 {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    img#modal_img {
+        height: 60%;
+        width: 50%;
     }
 
 }
@@ -10,8 +20,34 @@
     
     .galeria1 {
         grid-template-columns: 1fr 1fr 1fr;
+    } 
+    img#modal_img{
+        height: 60%;
+        width: 50%;
     }
+}
 
+
+@media (max-width: 800px){
+    img#modal_img{
+        height: 60%;
+        width: 50%;
+    }
+   
+}
+@media (max-width: 740px){
+    img#modal_img{
+        height: 63%;
+        width: 60%;
+    }
+   
+}
+@media (max-width: 640px){
+    img#modal_img{
+        height: 57%;
+        width: 60%;
+    }
+   
 }
 
 @media (max-width: 600px) {
@@ -19,7 +55,18 @@
     .galeria1 {
         grid-template-columns: 1fr 1fr;
     }
+    img#modal_img{
+        height: 55%;
+        width: 59%;
+    }
 
+}
+@media (max-width: 550px){
+    img#modal_img{
+        height: 55%;
+        width: 65%;
+    }
+   
 }
 
 @media (max-width: 500px) {
@@ -31,6 +78,10 @@
     .vendas {
         height: 165px;
     }
+    img#modal_img{
+        height: 55%;
+        width: 69%;
+    }
 
     p {
         font-size: 8pt;
@@ -41,4 +92,25 @@
         font-size: 12pt;
     }
 
+}
+@media (max-width: 450px){
+    img#modal_img{
+        height: 54%;
+        width: 77%;
+    }
+   
+}
+
+@media (max-width: 410px) {
+    img#modal_img{
+        height: 50%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 350px) {
+    img#modal_img{
+        height: 50%;
+        width: 83%;
+    }
 }
