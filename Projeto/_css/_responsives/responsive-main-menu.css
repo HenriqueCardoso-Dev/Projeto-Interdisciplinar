@@ -1,12 +1,49 @@
-@media (max-width: 1440px) {
-    nav#menu img {
-        height: 1000px;
+@media (max-width: 900px) {
+    nav#menu a img{
+        visibility: hidden;
+    }
+    nav#menu ul {
+        padding-left: 0;
+        justify-content: space-between;
+        
+    }
+    nav#menu ul a {
+        width: 100%;
+        justify-content: center;
     }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 576px) {
 
-    nav#menu ul a li{
-        font-size: 16px;
+    nav#menu ul a li {
+        font-size: 13px;
     }
+
+}
+
+@media (max-width: 492px) {
+    nav#menu ul a li {
+        font-size: 9.5px;
+    }
+    
+}
+
+@media (max-width: 427px) {
+    
+    nav#menu ul {
+        height: 45px;
+    }
+
+    nav#menu ul a li {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    
+    nav#menu ul a li {
+        font-size: 10px;
+    }
+
 }
