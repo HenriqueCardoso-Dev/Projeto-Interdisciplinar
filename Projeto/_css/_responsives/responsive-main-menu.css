@@ -1,3 +1,9 @@
+@media (max-width: 1440px) {
+    nav#menu a img#l {
+        height: 1000px;
+    }
+}
+
 @media (max-width: 1090px) {
 
     nav#menu ul a li{
