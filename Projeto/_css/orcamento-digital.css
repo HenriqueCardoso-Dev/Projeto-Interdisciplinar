@@ -20,6 +20,12 @@ main section#orcamento-page form {
     color: #c0bdbd;
     font-family: 'Ubuntu', sans-serif;
 }
+
+main section#orcamento-page form img {
+    display: flex;
+    align-self: center;
+    width: 25%;
+}
     
 main section#orcamento-page form input {
     margin: 8px 0;
