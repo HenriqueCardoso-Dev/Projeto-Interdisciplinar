@@ -15,7 +15,6 @@ for(let i = 0; i < imagens.length;i++){
 
             case 0 :
                 document.querySelector('div.modal_content').innerHTML = '<img src="../_media/_photos/foto1.jpg" id="modal_img">';
-                document.querySelector('img#modal_img').style.width = '35%';
                 document.querySelector('div.modal').style.visibility = 'visible';
                 document.querySelector('footer').style.position = 'fixed';
             break;
@@ -34,7 +33,6 @@ for(let i = 0; i < imagens.length;i++){
 
             case 3 :
                 document.querySelector('div.modal_content').innerHTML = '<img src="../_media/_photos/foto4.jpg" id="modal_img">';
-                document.querySelector('img#modal_img').style.width = '35%';
                 document.querySelector('div.modal').style.visibility = 'visible';
                 document.querySelector('footer').style.position = 'fixed';
             break;
@@ -107,7 +105,6 @@ for(let i = 0; i < imagensManut.length;i++){
             case 1 :
                 document.querySelector('div.modal_content').innerHTML = '<img src="../_media/_photos/foto2-manutencao.jpg" id="modal_img">';
                 document.querySelector('div.modal').style.visibility = 'visible';
-                document.querySelector('img#modal_img').style.width = '40%';
                 document.querySelector('footer').style.position = 'fixed';
             break;
 
@@ -119,7 +116,6 @@ for(let i = 0; i < imagensManut.length;i++){
 
             case 3 :
                 document.querySelector('div.modal_content').innerHTML = '<img src="../_media/_photos/foto4-manutencao.jpg" id="modal_img">';
-                document.querySelector('img#modal_img').style.width = '50%';
                 document.querySelector('div.modal').style.visibility = 'visible';
                 document.querySelector('footer').style.position = 'fixed';
             break;
