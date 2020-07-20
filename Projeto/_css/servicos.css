@@ -13,6 +13,8 @@ section#content-servicos {
     background-color: #ffffff;
     margin: 0 auto;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 section#content-servicos ul{
