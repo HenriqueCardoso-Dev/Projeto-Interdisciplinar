@@ -27,6 +27,10 @@
         text-align: justify;
         font-family: fontMario;
     }
+
+    section#content-main div#logo img{
+        height: 100%;
+    }
 }
 
 @media (max-width: 840px){

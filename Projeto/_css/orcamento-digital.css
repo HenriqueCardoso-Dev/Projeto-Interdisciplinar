@@ -46,7 +46,7 @@ main section#orcamento-page form textarea {
 }
     
 main section#orcamento-page form input#foto {
-    width: max-content;
+    width: 100%;
     border: 0;
     outline: none;
     cursor: pointer;
