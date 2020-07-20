@@ -75,12 +75,12 @@
         grid-template-columns: 1fr;
     }
 
-    .vendas {
-        height: 165px;
+    .vendas, .manutencao {
+        height: 250px;
     }
     img#modal_img{
         height: 55%;
-        width: 69%;
+        width: 60%;
     }
 
     p {
